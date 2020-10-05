@@ -5,12 +5,13 @@ html {
 
 * {
     font-family: 'Open Sans', sans-serif;
-    /* border: 1px solid black; */
+    border: 1px solid red;
     box-sizing: border-box;
 }
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #4D4C76;
     height: 10rem;
 }
@@ -117,6 +118,12 @@ footer {
 }
 
 .socials {
-    width: 11.5rem;
-    
+    width: 11.5rem;  
 }
+
+@media(max-width:800px) {
+    #nav-header {
+        margin: 0 2%;
+    }
+}
+
