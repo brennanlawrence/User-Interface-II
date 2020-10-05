@@ -104,7 +104,6 @@ h2 {
 }
 
 #projects-section img {
-    height: 25rem;
     width: 30rem;
 }
 footer {
@@ -127,3 +126,44 @@ footer {
     }
 }
 
+@media(max-width:500px) {
+    .header-container{
+        flex-direction: column;
+        height: 20%;
+    }
+    .header-sides {
+        width: 90%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 4rem;
+    }
+    #nav-header {
+        width: 30%;
+        flex-wrap: wrap;
+    }
+    #nav-header a {
+        width: 100%;
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+    #info-content-div {
+        width: 100%;
+        flex-flow: row wrap;
+    }
+    #info-content-div p {
+        width: 70%;
+    }
+    #info-content-div a {
+        width: 40%;
+        font-size: 2rem;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
+    #projects-section div {
+        width: 40%;
+    }
+    #projects-section img {
+        width: 100%;
+    }
+}
